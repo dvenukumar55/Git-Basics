@@ -1,0 +1,3 @@
+It is combination of (git fetch + git merge)
+
+gives changes made in GH and merge that changes to local repo

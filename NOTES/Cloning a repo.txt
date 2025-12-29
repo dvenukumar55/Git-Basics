@@ -1,0 +1,8 @@
+If you clone a project from other
+Go to folder open cmd in it
+use this command
+
+git clone (that project link in github)
+
+
+after that ,files are added to the folder

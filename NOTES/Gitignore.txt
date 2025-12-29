@@ -1,0 +1,3 @@
+.gitignore is a file used to tell Git which files or folders should NOT be tracked
+
+These files will not be added, not committed, and not pushed to GitHub

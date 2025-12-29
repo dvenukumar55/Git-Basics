@@ -1,0 +1,14 @@
+we can see commits in repo by using
+
+     git log
+
+commit 1b2886bedb235e844076cfd640277392e77a98c3 (HEAD -> main)
+Author: venukumar <venu1123@gmail.com>
+Date:   Fri Dec 12 15:53:41 2025 +0530
+
+firstcommit
+
+
+if any change done in file,
+it again add by using git add command
+and commit by using git commit -m "msg"

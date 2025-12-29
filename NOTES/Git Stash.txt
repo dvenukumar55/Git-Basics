@@ -1,0 +1,20 @@
+Git stash temporarily saves uncommitted changes so that we can switch branches
+or pull code without committing
+
+Stash vs Commit:
+
+commit → permanent save
+
+stash → temporary save
+
+Commands:
+
+git stash
+git stash list
+git stash pop
+git stash apply
+git stash drop
+
+
+these changes are stored in stash stack
+data structure

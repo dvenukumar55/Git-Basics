@@ -1,0 +1,28 @@
+git cherry-pick is used to apply a specific commit from one branch to another branch
+
+Instead of merging the whole branch, you pick only the required commit
+
+Basic Syntax:
+
+     git cherry-pick <commit-id>
+
+Multiple Commits:
+
+    git cherry-pick commit1 commit2 commit3
+
+range:
+
+    git cherry-pick commit1..commit5
+
+
+EG:
+
+Bug fixed in feature-login
+Only that fix needed in main
+
+Run:
+
+    git checkout main
+    git cherry-pick <fix-commit-id>
+    
+Only that fix comes to main branch

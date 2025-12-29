@@ -1,0 +1,32 @@
+Used to undo commits by moving head to prev commit
+
+-deletes the commit and goes to prev commit state
+
+-commits after that commit are deleted
+
+syn:
+
+    git reset commit_id
+    git reset head~num
+    
+
+TYPES:
+
+--soft:
+commit history will deleted and file goes staging area
+(again we need to commit) (A)
+
+syn:
+
+   git reset --soft commit_id
+
+--hard:
+commit history deleted nd code also deleted upto that commit
+
+syn:
+
+     git reset --hard commit_id
+
+--mixed:
+commit history deleted and file moves to local directory
+and again we add, commit (U)

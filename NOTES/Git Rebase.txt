@@ -1,0 +1,23 @@
+git rebase is used to move or replay commits from one branch onto another branch
+to create a clean, linear history
+
+eg:
+
+main:    A---B---C
+feature:      D---E
+
+
+run these:
+
+     git checkout feature
+     git rebase main
+
+result:
+main:    A---B---C
+feature:         D'---E'
+
+
+Commits are replayed on top of main
+
+     git rebase --continue
+     git rebase --abort

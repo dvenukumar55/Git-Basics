@@ -1,0 +1,30 @@
+A merge conflict occurs when Git cannot automatically merge changes
+because the same part of a file was modified in different branches
+
+Git gets confused about which change to keep
+
+eg:
+
+Branch main:
+Hello World
+
+Branch feature:
+Hello Kittu
+
+
+When merging -> conflict
+
+Git shows conflict like this
+
+<<<<<<< HEAD
+Hello World
+=======
+Hello Kittu
+>>>>>>> feature
+
+
+<<<<<<< HEAD → your current branch
+
+======= → separator
+
+>>>>>>> feature → other branch

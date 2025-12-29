@@ -1,0 +1,8 @@
+Used to download the latest changes from remote repo GH
+without affecting your local files or branch
+
+-only bring updates and does not merge them automatically
+
+syntax:
+
+     git fetch

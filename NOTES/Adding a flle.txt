@@ -1,0 +1,3 @@
+For adding a file:
+
+    git add first.txt<filename>

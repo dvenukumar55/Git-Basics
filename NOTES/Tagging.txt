@@ -1,0 +1,17 @@
+Two types:
+
+     -annotated tagging (we use this)
+
+     -lightweight tagging
+
+we create tag by using:
+
+     git tag -a v1.0
+
+we will see how many tags by using:
+
+      git tag
+
+To insert that tag to github:
+
+      git push origin v1.0

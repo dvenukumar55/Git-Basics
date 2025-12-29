@@ -1,0 +1,10 @@
+Used to UNDO the changes to that commit
+and does not delete the commit history
+
+syn:
+
+    git revert commit_id
+    git revert head
+    git revert head num
+    git revert commit_id --no-edit
+    git revert <commit1><commit2><commit3>.....

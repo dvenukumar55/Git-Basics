@@ -1,0 +1,11 @@
+BRANCH creation:
+
+To create branch we use:
+
+     git checkout -b (branchname)
+
+To check how many branches we use:
+
+    git branch
+
+----starred branch is in use

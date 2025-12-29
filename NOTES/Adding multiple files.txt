@@ -1,0 +1,4 @@
+If you created more files to add
+instead of using separate add's we use
+
+     git add .

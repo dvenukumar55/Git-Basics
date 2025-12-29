@@ -1,0 +1,10 @@
+To skip this staging area we use command like
+
+      git commit -a -m "msg"
+
+
+(m = msg, a = all (only tracked files ,files that are added before))
+
+directly committed instead of add and commit
+
+It skips the staging area for tracked files and directly commits them

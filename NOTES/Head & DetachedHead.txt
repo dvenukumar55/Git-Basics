@@ -1,0 +1,25 @@
+HEAD is a pointer that tells Git
+Which commit / branch you are currently on
+
+eg:
+
+HEAD → main → latest commit
+
+     git checkout main
+HEAD points to main
+
+main points to the latest commit
+
+DETACHED HEAD
+HEAD points directly to a commit, not to a branch
+You are not on any branch
+
+eg:
+
+     git checkout a1b2c3d
+     git checkout v1.0
+
+now
+HEAD → commit
+
+not attached to any branch

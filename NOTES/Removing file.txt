@@ -1,0 +1,5 @@
+Removing a file from git:
+instead of deleting file in directory directly
+we should delete file from git first by using
+
+    git rm --cached filename

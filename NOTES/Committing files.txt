@@ -1,0 +1,21 @@
+For commiting file we shouldn't use just
+
+    git commit
+
+we also should give msg also like
+
+     git commit -m "firstcommit"
+
+After that it gives like
+
+     [main (root-commit) 1b2886b] firstcommit
+     1 file changed, 1 insertion(+)
+     create mode 100644 first.txt
+
+
+1b2886b it is unique num of every commit
+
+git creates a checksum for each commit if any
+change happened in code it will changed
+
+actually it is 20 digits but we take 7digits hexadecimal

@@ -1,0 +1,5 @@
+Merge the code changes in local repo which are done in remote repo
+
+syn:
+
+    git merge origin main

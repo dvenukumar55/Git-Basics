@@ -1,0 +1,18 @@
+By using only git init
+we get master branch we dont need that
+for that we use
+
+     git init -b main
+
+
+U = Untracked by git
+
+To see status of repo we use
+
+     git status
+
+
+After looking status it gives like below
+
+        On branch main
+        No commits yet

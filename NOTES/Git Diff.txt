@@ -1,0 +1,22 @@
+To track changes occured in file we use
+
+    git diff
+(if file is not added)
+
+if file is added we use
+      git diff --staged
+
+result output:
+
+diff --git a/first.txt b/first.txt
+index d08c101..cf3e1de 100644
+--- a/first.txt
++++ b/first.txt
+@@ -1,3 +1,7 @@
+HELLOWORLD 1st commit
+HELLOWORLD\\\ 2nd commit
+HELLOWORLD\\\?  3rd commit
++
++take input from user
++apply add operation
++show result
